@@ -6,8 +6,11 @@
         {
             // instanser av djur skapas
             Dog dog = new Dog("Dog", 16, "Black", "Woff Woff", "Run", "Muscular");
-            Cat cat = new Cat("Cat", 10, "White", "Mjauuuuuu", "Run", true);
+            Cat cat = new Cat("Cat", 10, "White", "Mjauuuuuu", "Run", "Indoor");
             Frog frog = new Frog("Frog", 2, "Green", "Ribbit", "Jump", "Pool");
+            Animal animal = new Animal();
+            Console.WriteLine(animal.NameOfAnimal);
+            Console.WriteLine(animal.Age);
 
             // metoder till alla djur anropas
             dog.Presentation();
